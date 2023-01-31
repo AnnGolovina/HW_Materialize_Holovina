@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 450px;
+}
+.flex{
+	display: flex;
+}
+.flex-column{
+	flex-direction: column;
+}
+.flex-row{
+	flex-direction: row;
+}
+.nav-wrapper{
+	justify-content: space-around;
+}
+header nav {
+	justify-content: space-around;
+	margin: auto;
+}
+header nav .nav-wrapper a{
+	left: 16.88rem;
+}
+header nav .nav-wrapper ul li:first-child{
+	padding-left: 13rem;
+}
+section{
+	align-items: center;
+}
+.content{
+	align-items: center;
+	justify-content: center;
+}
+section .content h2{
+	margin: 60px 0 15px 0;
+}
+section .content p{
+	font-size: 20px;
+	font-weight: 500;
+}
+section .content div button{
+	padding: 0px 25px;
+}
+section .cards{
+	margin: 100px auto;
+	flex-wrap: wrap;
+}
+section .cards .card{
+	width: 280px;
+	box-shadow: none;
+	margin: 0 30px;
+}
+section .cards .card div{
+	align-items: center;
+	justify-content: center;
+}
+section .cards .card div h4{
+	font-weight: 600;
+}
+section .cards .card .card-content{
+	padding: 0;
+}
+
+footer .container:first-child{
+	justify-content: space-between;
+	width: 63%;
+	height: auto;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+footer .container:first-child div:nth-child(1){
+	width: 50%;
+	min-width: 150px;
+}
+
+footer .container:last-child{
+	width: 63%;
+	height: auto;
+	margin:auto
+}
